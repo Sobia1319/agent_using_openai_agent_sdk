@@ -10,7 +10,7 @@ This project demonstrates how to create a basic agent using the OpenAI Agent SDK
 
 - Python 3.10 or later
 - UV package manager
-- OpenAI API key
+- API key
 
 ## Screenshot
 ![alt text](image.png)
