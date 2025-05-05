@@ -1,0 +1,19 @@
+[project]
+name = "hello-agent"
+version = "0.1.0"
+description = "A simple Hello World agent using OpenAI Agent SDK"
+authors = [
+    {name = "Sobia Wazir", email = "sobiawazair1@gmail.com"}
+]
+dependencies = [
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.0",
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+run-agent = "agent_hello:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
